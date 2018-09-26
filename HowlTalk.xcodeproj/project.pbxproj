@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302A95CB211EA7D200C1E550 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A95CA211EA7D200C1E550 /* ChatViewController.swift */; };
+		302A95CE211EA8E600C1E550 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A95CD211EA8E600C1E550 /* ChatModel.swift */; };
+		303AE395213182A800A9309C /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AE394213182A800A9309C /* NotificationModel.swift */; };
+		303AE3972132947F00A9309C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AE3962132947F00A9309C /* AccountViewController.swift */; };
+		30410605211705D100334630 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30410604211705D100334630 /* PeopleViewController.swift */; };
+		304AC55921187932006B9CC3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304AC55821187932006B9CC3 /* UserModel.swift */; };
+		3063FFFC213D3D3000B6D5C6 /* SelectFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063FFFB213D3D3000B6D5C6 /* SelectFriendViewController.swift */; };
+		306517C92115771400691F14 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 306517C82115771400691F14 /* RemoteConfigDefaults.plist */; };
+		3069BBB5212AA3C700640785 /* ChatRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069BBB4212AA3C700640785 /* ChatRoomsViewController.swift */; };
+		308227A6211551F100FAE7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308227A5211551F100FAE7BB /* AppDelegate.swift */; };
+		308227A8211551F100FAE7BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308227A7211551F100FAE7BB /* ViewController.swift */; };
+		308227AB211551F100FAE7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308227A9211551F100FAE7BB /* Main.storyboard */; };
+		308227AD211551F700FAE7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308227AC211551F700FAE7BB /* Assets.xcassets */; };
+		308227B0211551F700FAE7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308227AE211551F700FAE7BB /* LaunchScreen.storyboard */; };
+		308227B8211552EA00FAE7BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 308227B7211552EA00FAE7BB /* GoogleService-Info.plist */; };
+		30837F6D213D465F004D1AB9 /* GroupChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30837F6C213D465F004D1AB9 /* GroupChatRoomViewController.swift */; };
+		30B4337F21157EC800B5801B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4337E21157EC800B5801B /* LoginViewController.swift */; };
+		30B433812115A87F00B5801B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B433802115A87F00B5801B /* SignupViewController.swift */; };
+		C223CD7E4ED911F82CA70F29 /* Pods_HowlTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A861D49F268F5A716B113C6 /* Pods_HowlTalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A861D49F268F5A716B113C6 /* Pods_HowlTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF3D90A598D7D26BEAEC21B /* Pods-HowlTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlTalk/Pods-HowlTalk.release.xcconfig"; sourceTree = "<group>"; };
+		302A95CA211EA7D200C1E550 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		302A95CD211EA8E600C1E550 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		303AE394213182A800A9309C /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		303AE3962132947F00A9309C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		30410604211705D100334630 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		304AC55821187932006B9CC3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3063FFFA213D3B5A00B6D5C6 /* BEMCheckBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		3063FFFB213D3D3000B6D5C6 /* SelectFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFriendViewController.swift; sourceTree = "<group>"; };
+		306517C82115771400691F14 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		3069BBB4212AA3C700640785 /* ChatRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsViewController.swift; sourceTree = "<group>"; };
+		3069BBB6212AF99300640785 /* HowlTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HowlTalk.entitlements; sourceTree = "<group>"; };
+		308227A2211551F100FAE7BB /* HowlTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowlTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308227A5211551F100FAE7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		308227A7211551F100FAE7BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		308227AA211551F100FAE7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		308227AC211551F700FAE7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		308227AF211551F700FAE7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		308227B1211551F700FAE7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308227B7211552EA00FAE7BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30837F6C213D465F004D1AB9 /* GroupChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatRoomViewController.swift; sourceTree = "<group>"; };
+		30B4337E21157EC800B5801B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		30B433802115A87F00B5801B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D84746E6DAC27A02AE7D2E64 /* Pods-HowlTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlTalk/Pods-HowlTalk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3082279F211551F100FAE7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C223CD7E4ED911F82CA70F29 /* Pods_HowlTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080AD6E4B456B0290A6A2028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D84746E6DAC27A02AE7D2E64 /* Pods-HowlTalk.debug.xcconfig */,
+				2AF3D90A598D7D26BEAEC21B /* Pods-HowlTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		302A95CC211EA8C800C1E550 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				304AC55821187932006B9CC3 /* UserModel.swift */,
+				302A95CD211EA8E600C1E550 /* ChatModel.swift */,
+				303AE394213182A800A9309C /* NotificationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3069BBB3212AA3A400640785 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				30410604211705D100334630 /* PeopleViewController.swift */,
+				3069BBB4212AA3C700640785 /* ChatRoomsViewController.swift */,
+				303AE3962132947F00A9309C /* AccountViewController.swift */,
+				3063FFFB213D3D3000B6D5C6 /* SelectFriendViewController.swift */,
+				30837F6C213D465F004D1AB9 /* GroupChatRoomViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		30822799211551F000FAE7BB = {
+			isa = PBXGroup;
+			children = (
+				308227A4211551F100FAE7BB /* HowlTalk */,
+				308227A3211551F100FAE7BB /* Products */,
+				080AD6E4B456B0290A6A2028 /* Pods */,
+				E75F7A1291FEAB79291122B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		308227A3211551F100FAE7BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308227A2211551F100FAE7BB /* HowlTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308227A4211551F100FAE7BB /* HowlTalk */ = {
+			isa = PBXGroup;
+			children = (
+				3069BBB6212AF99300640785 /* HowlTalk.entitlements */,
+				3069BBB3212AA3A400640785 /* TabBar */,
+				302A95CC211EA8C800C1E550 /* Model */,
+				308227A5211551F100FAE7BB /* AppDelegate.swift */,
+				308227A7211551F100FAE7BB /* ViewController.swift */,
+				30B4337E21157EC800B5801B /* LoginViewController.swift */,
+				30B433802115A87F00B5801B /* SignupViewController.swift */,
+				302A95CA211EA7D200C1E550 /* ChatViewController.swift */,
+				308227A9211551F100FAE7BB /* Main.storyboard */,
+				308227AC211551F700FAE7BB /* Assets.xcassets */,
+				308227AE211551F700FAE7BB /* LaunchScreen.storyboard */,
+				308227B1211551F700FAE7BB /* Info.plist */,
+				308227B7211552EA00FAE7BB /* GoogleService-Info.plist */,
+				306517C82115771400691F14 /* RemoteConfigDefaults.plist */,
+				3063FFFA213D3B5A00B6D5C6 /* BEMCheckBox.h */,
+			);
+			path = HowlTalk;
+			sourceTree = "<group>";
+		};
+		E75F7A1291FEAB79291122B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A861D49F268F5A716B113C6 /* Pods_HowlTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308227A1211551F100FAE7BB /* HowlTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308227B4211551F700FAE7BB /* Build configuration list for PBXNativeTarget "HowlTalk" */;
+			buildPhases = (
+				924C82580D3636D0AA33640E /* [CP] Check Pods Manifest.lock */,
+				3082279E211551F100FAE7BB /* Sources */,
+				3082279F211551F100FAE7BB /* Frameworks */,
+				308227A0211551F100FAE7BB /* Resources */,
+				2DCAE69C4B06984956D4F9AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowlTalk;
+			productName = HowlTalk;
+			productReference = 308227A2211551F100FAE7BB /* HowlTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3082279A211551F000FAE7BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Awesome S";
+				TargetAttributes = {
+					308227A1211551F100FAE7BB = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.ClassKit = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3082279D211551F000FAE7BB /* Build configuration list for PBXProject "HowlTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30822799211551F000FAE7BB;
+			productRefGroup = 308227A3211551F100FAE7BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308227A1211551F100FAE7BB /* HowlTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308227A0211551F100FAE7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308227B0211551F700FAE7BB /* LaunchScreen.storyboard in Resources */,
+				306517C92115771400691F14 /* RemoteConfigDefaults.plist in Resources */,
+				308227B8211552EA00FAE7BB /* GoogleService-Info.plist in Resources */,
+				308227AD211551F700FAE7BB /* Assets.xcassets in Resources */,
+				308227AB211551F100FAE7BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DCAE69C4B06984956D4F9AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowlTalk/Pods-HowlTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlTalk/Pods-HowlTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		924C82580D3636D0AA33640E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3082279E211551F100FAE7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B4337F21157EC800B5801B /* LoginViewController.swift in Sources */,
+				30837F6D213D465F004D1AB9 /* GroupChatRoomViewController.swift in Sources */,
+				3069BBB5212AA3C700640785 /* ChatRoomsViewController.swift in Sources */,
+				308227A8211551F100FAE7BB /* ViewController.swift in Sources */,
+				30B433812115A87F00B5801B /* SignupViewController.swift in Sources */,
+				3063FFFC213D3D3000B6D5C6 /* SelectFriendViewController.swift in Sources */,
+				302A95CE211EA8E600C1E550 /* ChatModel.swift in Sources */,
+				302A95CB211EA7D200C1E550 /* ChatViewController.swift in Sources */,
+				308227A6211551F100FAE7BB /* AppDelegate.swift in Sources */,
+				304AC55921187932006B9CC3 /* UserModel.swift in Sources */,
+				303AE395213182A800A9309C /* NotificationModel.swift in Sources */,
+				30410605211705D100334630 /* PeopleViewController.swift in Sources */,
+				303AE3972132947F00A9309C /* AccountViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		308227A9211551F100FAE7BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308227AA211551F100FAE7BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		308227AE211551F700FAE7BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308227AF211551F700FAE7BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		308227B2211551F700FAE7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		308227B3211551F700FAE7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308227B5211551F700FAE7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84746E6DAC27A02AE7D2E64 /* Pods-HowlTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HowlTalk/HowlTalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R3C5472LX;
+				INFOPLIST_FILE = HowlTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.HowlTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HowlTalk/BEMCheckBox.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		308227B6211551F700FAE7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF3D90A598D7D26BEAEC21B /* Pods-HowlTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HowlTalk/HowlTalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R3C5472LX;
+				INFOPLIST_FILE = HowlTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.HowlTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HowlTalk/BEMCheckBox.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3082279D211551F000FAE7BB /* Build configuration list for PBXProject "HowlTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308227B2211551F700FAE7BB /* Debug */,
+				308227B3211551F700FAE7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308227B4211551F700FAE7BB /* Build configuration list for PBXNativeTarget "HowlTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308227B5211551F700FAE7BB /* Debug */,
+				308227B6211551F700FAE7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3082279A211551F000FAE7BB /* Project object */;
+}
